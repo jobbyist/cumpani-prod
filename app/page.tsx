@@ -347,7 +347,7 @@ export default function CumpaniApp() {
       playsInline
       className="absolute inset-0 w-full h-full object-cover"
     >
-      <source src="YOUR_SUPABASE_VIDEO_URL_HERE" type="video/mp4" />
+      <source src="https://vbwdkiuotfqyilkhbxdg.supabase.co/storage/v1/object/sign/media_assets_and_resources/ScreenRecording_05-14-2026%2002-10-14_1.mov?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zYmZkZGIwYS0wMjQzLTRkNDMtOWEyOS1kMDlhM2M5MWQ4ZTMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtZWRpYV9hc3NldHNfYW5kX3Jlc291cmNlcy9TY3JlZW5SZWNvcmRpbmdfMDUtMTQtMjAyNiAwMi0xMC0xNF8xLm1vdiIsImlhdCI6MTc3ODczODU2NywiZXhwIjoxODEwMjc0NTY3fQ.bTTfv3I9fGUtcrwuIQQCE0Rb6k1G20h-J7aR1xtD-Hc" type="video/mp4" />
     </video>
     
     {/* 80% Dark Overlay */}
@@ -355,7 +355,7 @@ export default function CumpaniApp() {
     
     <div className="relative z-10 text-center px-6">
       <h1 className="text-7xl font-bold tracking-tighter mb-6">
-        South Africa's<br />Premier Adult Companion Service.
+        South Africa's<br />Premier Adult Companion Platform.
       </h1>
       <button 
         onClick={() => setCurrentView('browse')} 
