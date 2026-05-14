@@ -338,18 +338,34 @@ export default function CumpaniApp() {
       </nav>
 
       {/* HERO */}
-      {currentView === 'home' && (
-        <div className="relative h-[100vh] flex items-center justify-center">
-          <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover">
-            <source src="https://assets.mixkit.co/videos/preview/3443/3443-small.mp4" type="video/mp4" />
-          </video>
-          <div className="absolute inset-0 bg-black/80" />
-          <div className="relative z-10 text-center px-6">
-            <h1 className="text-7xl font-bold tracking-tighter mb-6">Premium Companions.<br />Discreet Experiences.</h1>
-            <button onClick={() => setCurrentView('browse')} className="btn-primary px-10 py-4 rounded-2xl text-lg">Browse Companions</button>
-          </div>
-        </div>
-      )}
+   {currentView === 'home' && (
+  <div className="relative h-[100vh] flex items-center justify-center overflow-hidden">
+    <video 
+      autoPlay 
+      loop 
+      muted 
+      playsInline
+      className="absolute inset-0 w-full h-full object-cover"
+    >
+      <source src="YOUR_SUPABASE_VIDEO_URL_HERE" type="video/mp4" />
+    </video>
+    
+    {/* 80% Dark Overlay */}
+    <div className="absolute inset-0 bg-black/80"></div>
+    
+    <div className="relative z-10 text-center px-6">
+      <h1 className="text-7xl font-bold tracking-tighter mb-6">
+        South Africa's<br />Premier Adult Companion Service.
+      </h1>
+      <button 
+        onClick={() => setCurrentView('browse')} 
+        className="btn-primary px-10 py-4 rounded-2xl text-lg"
+      >
+        Browse Companions
+      </button>
+    </div>
+  </div>
+)}
 
       {/* BROWSE */}
       {currentView === 'browse' && (
