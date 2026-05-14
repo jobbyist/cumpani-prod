@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cumpani | Premium Companion Services in South Africa",
+  title: "Cumpani | South Africa's Premier Adult Companion PlatformCompanion Services in South Africa",
   description: "Discover and book verified premium companions across South Africa. Elegant, discreet, and seamless experiences. 18+ only.",
   icons: {
     icon: "/favicon.ico",
